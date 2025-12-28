@@ -1,0 +1,73 @@
+.comparison-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.score-comparison {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.score-box {
+  text-align: center;
+}
+
+.score-box .score-label {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.score-box .score-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #667eea;
+}
+
+.score-box .score-value.latest {
+  color: #28a745;
+}
+
+.score-arrow {
+  font-size: 2rem;
+  color: #667eea;
+}
+
+.percent-change {
+  display: block;
+  font-size: 0.9rem;
+  margin-top: 5px;
+  opacity: 0.8;
+}
+
+.keyword-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.keyword-tag.added {
+  background: #28a745;
+  color: white;
+}
+
+.keyword-tag.removed {
+  background: #dc3545;
+  color: white;
+}
+
+.keywords-added h4,
+.keywords-removed h4 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
