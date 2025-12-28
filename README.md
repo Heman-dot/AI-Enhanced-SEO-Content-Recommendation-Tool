@@ -23,7 +23,7 @@ A full-stack web application that helps content creators optimize their content 
 - Node.js
 - Express.js
 - MongoDB with Mongoose
-- OpenAI API (GPT-4)
+- OpenAI API (gpt-4o-mini)
 
 ## Prerequisites
 
@@ -249,7 +249,7 @@ The improvement report shows:
 ### OpenAI API
 The application uses GPT-4 by default. You can modify the model in `server/services/openaiService.js`:
 ```javascript
-model: 'gpt-4'  
+model: 'gpt-4o-mini'  
 ```
 
 ### Port Configuration
